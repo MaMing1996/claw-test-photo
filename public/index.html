@@ -10,7 +10,7 @@
   <main>
     <h1>照片分类管理</h1>
 
-    <section>
+    <section id="overview">
       <h2>按时间分类</h2>
       <div class="controls">
         <button data-g="day">日</button>
@@ -20,9 +20,17 @@
       <div id="time-groups" class="grid"></div>
     </section>
 
-    <section>
+    <section id="overview-location">
       <h2>按地点分类（国家）</h2>
       <div id="location-groups" class="grid"></div>
+    </section>
+
+    <section id="detail" class="hidden">
+      <div class="detail-header">
+        <button id="back-btn">← 返回分类</button>
+        <h2 id="detail-title"></h2>
+      </div>
+      <div id="detail-grid" class="photo-grid"></div>
     </section>
   </main>
   <script src="/app.js"></script>
