@@ -5,6 +5,7 @@
   "description": "Photo classification by time and country",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "test": "node --test"
   }
 }
