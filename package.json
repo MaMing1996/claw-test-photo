@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "description": "Photo classification by time and country",
-  "main": "src/app.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/server.js"
   }
 }
